@@ -794,7 +794,6 @@ footer {
         width: 150px;
         transform: translate(0, 20%);
     }
-    
 @media (max-width:480px) {
     .l-mobile-1-12 { width: 8.33333333%; }
     .l-mobile-2-12 { width: 16.66666667%; }
@@ -814,7 +813,7 @@ footer {
         position: absolute;
         top: 50%;
         height: 3px;
-        width: 30%;
+        width: 20%;
         background: #000;
     }
     .calender-title-box:after {
@@ -822,7 +821,13 @@ footer {
         position: absolute;
         top: 50%;
         height: 3px;
-        width: 50%;
+        width: 30%;
         background: #000;
+    }
+    .calender-more {
+        transform: translateX(-25%);
+    }
+    .news-paper .l-col:nth-child(1) {
+        width: 100%;
     }
 }
